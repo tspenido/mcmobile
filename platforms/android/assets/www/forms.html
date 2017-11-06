@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
+  <title>..:: Mc Mobile ::..</title>
+
+  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="lib/materialize/js/materialize.js"></script>
+  <script src="lib/materialize/js/init.js"></script>
+  <script src="lib/cookies/jquery.cookie.js"></script>
+  <script src="lib/mask/jquery.maskedinput-1.3.1.min.js"></script>
+  <script src="js/app_action.js"></script>  
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="lib/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+
+<body>
+
+<div class="divoff">
+    
+    <div class="icooff">
+        
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="212px" height="212px" viewBox="0 0 46.09 46.09" style="enable-background:new 0 0 46.09 46.09;" xml:space="preserve">
+            <g>
+                <g>
+                    <path d="M43.499,39.244L6.847,2.591c-0.495-0.494-1.142-0.74-1.789-0.74S3.764,2.098,3.269,2.592L2.845,3.016L2.591,3.27    c-0.987,0.988-0.987,2.59,0,3.578l36.652,36.651c0.494,0.495,1.143,0.741,1.789,0.741s1.295-0.247,1.788-0.741l0.408-0.406    l0.271-0.272C44.487,41.833,44.487,40.232,43.499,39.244z" fill="#3d3d3d"/>
+                    <path d="M14.826,7.45h16.241c0.791,0,1.493,0.658,1.493,1.448v17.019l4.569,4.569V4.628C37.129,2.072,35.027,0,32.47,0H13.596    c-1.878,0-3.497,1.12-4.226,2.727l4.859,4.859C14.412,7.501,14.613,7.45,14.826,7.45z M16.953,3.178h12.167    c0.594,0,1.075,0.401,1.075,0.993s-0.481,0.994-1.075,0.994H16.953c-0.592,0-1.072-0.402-1.072-0.994S16.361,3.178,16.953,3.178z" fill="#3d3d3d"/>
+                    <path d="M31.066,37.845H14.826c-0.79,0-1.437-0.629-1.437-1.419V20.034l-4.47-4.469v25.912c0,2.557,2.12,4.613,4.676,4.613H32.47    c1.883,0,3.519-1.115,4.25-2.725l-5.524-5.525C31.153,37.843,31.11,37.845,31.066,37.845z M18.556,41.898    c0,0.668-0.544,1.211-1.212,1.211h-2.643c-0.67,0-1.212-0.543-1.212-1.211v-0.656c0-0.67,0.542-1.211,1.212-1.211h2.643    c0.668,0,1.212,0.541,1.212,1.211V41.898z M25.508,41.898c0,0.668-0.542,1.211-1.211,1.211h-2.643    c-0.67,0-1.212-0.543-1.212-1.211v-0.656c0-0.67,0.542-1.211,1.212-1.211h2.643c0.669,0,1.211,0.541,1.211,1.211V41.898z     M32.462,41.242v0.656c0,0.668-0.542,1.211-1.213,1.211h-2.643c-0.669,0-1.211-0.543-1.211-1.211v-0.656    c0-0.67,0.542-1.213,1.211-1.213h2.643C31.92,40.029,32.462,40.572,32.462,41.242z" fill="#3d3d3d"/>
+                </g>
+            </g>
+            </svg>
+
+            <span>Seu Smartphone não esta conectado a internet, verifique suas conexões e tente novamente.</span>
+
+    </div><!-- icooff -->
+
+    <div class="botoesAdj">
+
+      <div class="divItens">
+          <div class="divsa">
+
+              <a href="#!" class="box_buttons btnClose">
+                  
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 612 612" xml:space="preserve" enable-background="new 0 0 612 612"><g><g id="Error"><g><path d="M420.501 218.79c-0.286-6.942-2.868-13.827-8.186-19.125 -5.297-5.298-12.183-7.898-19.125-8.186 -7.726-0.325-15.548 2.276-21.438 8.186L306 265.436l-65.752-65.771c-5.909-5.91-13.712-8.492-21.439-8.186 -6.942 0.287-13.827 2.869-19.125 8.186 -5.297 5.298-7.898 12.183-8.186 19.125 -0.325 7.727 2.276 15.529 8.186 21.439L265.436 306l-65.752 65.752c-5.91 5.909-8.492 13.713-8.186 21.438 0.287 6.942 2.869 13.828 8.186 19.125 5.298 5.298 12.183 7.899 19.125 8.186 7.727 0.325 15.53-2.275 21.439-8.186L306 346.564l65.771 65.771c5.91 5.909 13.713 8.491 21.439 8.186 6.942-0.287 13.827-2.869 19.125-8.186 5.298-5.298 7.898-12.183 8.186-19.125 0.325-7.727-2.276-15.529-8.186-21.439L346.564 306l65.751-65.752C418.226 234.339 420.826 226.536 420.501 218.79zM306 0C137.012 0 0 137.012 0 306s137.012 306 306 306 306-137.012 306-306S474.988 0 306 0zM306 554.625C168.912 554.625 57.375 443.088 57.375 306S168.912 57.375 306 57.375 554.625 168.912 554.625 306 443.088 554.625 306 554.625z" fill="#3d3d3d"/></g></g></g></svg>
+
+                    <span>Sair</span>
+              </a>
+
+          </div><!-- divsa -->
+      </div><!-- divItens -->
+
+    </div><!-- botoesAdj -->
+
+</div><!-- divoff -->
+
+<form name="formApp">
+
+  <div class="iduser" style="display: none;"></div>
+
+  <nav class="light-blue lighten-1" role="navigation">
+
+    <div class="nav-wrapper container">
+
+      <div class="texto_titulo"></div>
+
+      <div id="nav-mobile" class="side-nav">
+
+        <a id="logo-container" href="#" class="brand-logo logotipoMc">
+          <img src="images/ico_menu.png">
+        </a>
+
+        <span class="bemvindo"></span>
+
+        <ul>
+
+          <li><a id="btnConsultaPecas"><i class="material-icons">search</i>Consulta de Peças</a></li>
+          <li><a id="btnSair"><i class="material-icons">lock_outline</i>Sair</a></li>
+
+        </ul>
+
+      </div>
+
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+    </div>
+
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+
+    <div class="container">
+
+        <!-- HTML PRINCIPAL -->
+        <div id="div_principal">
+            <img src="images/logo_opacity.png">
+        </div><!-- div_principal -->
+
+        <!-- HTML CONSULTA DE PEÇAS -->
+        <div id="div_consultaPecas">
+            
+            <div class="formCamps">
+              
+                <div class="boxBusc">
+
+                    <div class="input-field col s6">
+
+                      <i class="material-icons prefix">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 47.069 47.07" style="enable-background:new 0 0 47.069 47.07;" xml:space="preserve">
+                        <g>
+                          <g>
+                            <path d="M9.435,5.878C4.224,5.878,0,10.102,0,15.313v15.603c0,5.074,4.113,9.188,9.187,9.188v-3.251H8.679    c-2.997,0-5.426-2.429-5.426-5.425v-16.91c0-2.997,2.429-5.426,5.426-5.426h29.754c2.996,0,5.426,2.429,5.426,5.426v16.91    c0,2.996-2.43,5.425-5.426,5.425h-0.428v3.251c5.006,0,9.063-4.058,9.063-9.062V15.065c0-5.074-4.113-9.187-9.187-9.187H9.435z" fill="#3d3d3d"/>
+                            <path d="M11.24,34.818V10.715H9.316c-2.204,0-3.991,1.787-3.991,3.992v16.121c0,2.205,1.787,3.992,3.991,3.992h1.924V34.818z" fill="#3d3d3d"/>
+                            <rect x="28.918" y="10.715" width="5.146" height="24.103" fill="#3d3d3d"/>
+                            <rect x="18.665" y="10.715" width="3.786" height="24.103" fill="#3d3d3d"/>
+                            <rect x="24.607" y="10.715" width="2.154" height="24.103" fill="#3d3d3d"/>
+                            <rect x="13.384" y="10.715" width="3.211" height="24.103" fill="#3d3d3d"/>
+                            <path d="M12.972,36.502c-1.172,0-1.731,1.04-1.731,2.352c0.009,1.283,0.525,2.337,1.696,2.337c1.158,0,1.723-0.963,1.723-2.365    C14.659,37.583,14.185,36.502,12.972,36.502z M12.964,40.389c-0.41,0-0.662-0.495-0.655-1.535    c-0.007-1.054,0.258-1.549,0.648-1.549c0.427,0,0.643,0.53,0.643,1.535C13.599,39.873,13.376,40.389,12.964,40.389z" fill="#3d3d3d"/>
+                            <path d="M17.443,36.502c-1.173,0-1.729,1.04-1.729,2.352c0.006,1.283,0.522,2.337,1.694,2.337c1.159,0,1.724-0.963,1.724-2.365    C19.132,37.583,18.657,36.502,17.443,36.502z M17.437,40.389c-0.412,0-0.663-0.495-0.656-1.535    c-0.007-1.054,0.258-1.549,0.648-1.549c0.425,0,0.643,0.53,0.643,1.535C18.072,39.873,17.848,40.389,17.437,40.389z" fill="#3d3d3d"/>
+                            <polygon points="20.084,37.131 20.259,37.939 21.124,37.541 21.138,37.541 21.138,41.119 22.153,41.119 22.153,36.566     21.285,36.566   " fill="#3d3d3d"/>
+                            <path d="M25.161,40.228l0.422-0.349c0.656-0.586,1.209-1.192,1.209-1.953c0-0.824-0.563-1.424-1.59-1.424    c-0.612,0-1.144,0.209-1.484,0.468l0.299,0.761c0.238-0.182,0.578-0.377,0.971-0.377c0.523,0,0.746,0.293,0.746,0.664    c-0.014,0.53-0.497,1.04-1.487,1.925l-0.589,0.53v0.646h3.211v-0.894h-1.707L25.161,40.228L25.161,40.228z" fill="#3d3d3d"/>
+                            <path d="M29.773,36.502c-0.997,0-1.709,0.747-1.709,1.633c0,0.879,0.648,1.417,1.416,1.417c0.412,0,0.703-0.119,0.906-0.328    l0.022,0.006c-0.086,0.342-0.281,0.635-0.573,0.838c-0.244,0.168-0.566,0.258-0.888,0.278c-0.209,0.015-0.333,0.015-0.455,0v0.831    c0.122,0.007,0.295,0.014,0.476,0c0.705-0.028,1.297-0.244,1.729-0.634c0.495-0.454,0.793-1.146,0.793-2.087    C31.491,37.395,30.939,36.502,29.773,36.502z M30.352,38.498c-0.096,0.16-0.299,0.301-0.584,0.301    c-0.435,0-0.643-0.334-0.643-0.725c-0.008-0.476,0.258-0.795,0.62-0.795c0.481,0,0.664,0.474,0.664,0.955    C30.41,38.367,30.389,38.435,30.352,38.498z" fill="#3d3d3d"/>
+                            <path d="M35.219,38.463c-0.322-0.231-0.761-0.328-1.192-0.328c-0.111,0-0.196,0.004-0.294,0.019l0.098-0.693h1.777v-0.896H33.09    l-0.301,2.386c0.189-0.027,0.364-0.039,0.615-0.039c0.906,0,1.277,0.289,1.277,0.757c0,0.48-0.47,0.69-0.908,0.69    c-0.411,0-0.823-0.125-1.025-0.223l-0.188,0.796c0.25,0.132,0.711,0.258,1.263,0.258c1.222,0,1.946-0.745,1.946-1.59    C35.77,39.07,35.561,38.693,35.219,38.463z" fill="#3d3d3d"/>
+                          </g>
+                          <path d="M36.178,10.715v24.103h1.615c2.205,0,3.992-1.787,3.992-3.992v-16.12c0-2.205-1.787-3.992-3.992-3.992L36.178,10.715   L36.178,10.715z" fill="#3d3d3d"/>
+                        </g>
+                      </i>
+
+                      <input name="numbers" id="numbers" type="number" maxlength="10">
+                      <label for="numbers" class="active">Digite o código aqui para realizar a busca.</label>
+
+                    </div>
+              
+                    <a class="btn waves-effect waves-light grey darken-3 btnBuscarCod">Buscar</a>
+
+                </div><!-- boxBusc -->
+
+                <div class="buttonScan">
+                  
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 371.643 371.643" style="enable-background:new 0 0 371.643 371.643;" xml:space="preserve" width="250px" height="250px">
+                    <g>
+                      <g>
+                        <path d="M219.201,303.029h-94.117c-5.514,0-10-4.486-10-10V30c0-5.514,4.486-10,10-10h123.768c5.514,0,10,4.486,10,10v149.184    c2.917-1.824,6.38-2.901,10.286-2.901c3.543,0,6.847,0.946,9.714,2.579V30c0-16.542-13.458-30-30-30H125.084    c-16.542,0-30,13.458-30,30v263.029c0,16.542,13.458,30,30,30h101.768c-1.181-1.202-2.207-2.573-2.983-4.152    C221.528,314.113,219.939,308.665,219.201,303.029z" fill="#3d3d3d"/>
+                      </g>
+                      <g>
+                        <rect x="105.084" y="38.271" width="163.768" height="20" fill="#3d3d3d"/>
+                      </g>
+                      <g>
+                        <path d="M222.639,278.782c0-5.42,2.251-10.392,5.852-14.023H105.084v20h118.497C222.972,282.865,222.639,280.857,222.639,278.782z    " fill="#3d3d3d"/>
+                      </g>
+                      <g>
+                        <path d="M256.96,371.643c-2.845,0-5.669-1.207-7.648-3.551c-3.562-4.222-3.027-10.53,1.194-14.092    c36.949-31.177,44.113-77.465,49.869-114.658c0.421-2.719,0.832-5.376,1.245-7.962c1.935-12.11,0.079-21.509-5.672-28.734    c-8.139-10.223-24.681-16.456-47.836-18.025c-8.999-0.608-22.76,0.929-23.767,7.666c-1.663,11.127,9.274,15.524,9.741,15.706    c0.363,0.142,0.717,0.304,1.061,0.486c11.56,6.143,17.841,13.994,18.669,23.337c1.089,12.301-8.15,21.381-11.217,24.033    c-18.369,21.128-21.501,39.782-9.581,57.012c3.142,4.542,2.007,10.772-2.535,13.913c-4.541,3.145-10.771,2.007-13.913-2.534    c-9.996-14.45-21.792-44.34,11.511-82.169c0.405-0.461,0.852-0.883,1.334-1.261c1.924-1.567,4.688-5.1,4.477-7.251    c-0.15-1.54-2.26-4.22-7.701-7.188c-9.199-3.856-24.75-16.134-21.626-37.04c2.528-16.918,19.734-26.36,44.898-24.666    c29.328,1.988,50.231,10.576,62.132,25.524c9.317,11.703,12.606,26.623,9.775,44.345c-0.408,2.555-0.814,5.181-1.23,7.866    c-5.935,38.354-14.065,90.881-56.736,126.885C261.528,370.869,259.238,371.643,256.96,371.643z" fill="#3d3d3d"/>
+                      </g>
+                      <g>
+                        <path d="M104.289,252.809h-25c-16.542,0-30-13.458-30-30v-1.333c0-16.542,13.458-30,30-30h25c5.523,0,10,4.477,10,10v41.333    C114.289,248.331,109.811,252.809,104.289,252.809z M79.289,211.476c-5.514,0-10,4.486-10,10v1.333c0,5.514,4.486,10,10,10h15    v-21.333H79.289z" fill="#3d3d3d"/>
+                      </g>
+                      <g>
+                        <path d="M104.289,294.142h-17.5c-16.542,0-30-13.458-30-30v-1.333c0-16.542,13.458-30,30-30h17.5c5.523,0,10,4.478,10,10v41.333    C114.289,289.664,109.811,294.142,104.289,294.142z M86.789,252.809c-5.514,0-10,4.486-10,10v1.333c0,5.514,4.486,10,10,10h7.5    v-21.333H86.789z" fill="#3d3d3d"/>
+                      </g>
+                      <g>
+                        <path d="M104.289,211.476h-17.5c-16.542,0-30-13.458-30-30v-1.333c0-16.542,13.458-30,30-30h17.5c5.523,0,10,4.478,10,10v41.333    C114.289,206.998,109.811,211.476,104.289,211.476z M86.789,170.143c-5.514,0-10,4.486-10,10v1.333c0,5.514,4.486,10,10,10h7.5    v-21.333H86.789z" fill="#3d3d3d"/>
+                      </g>
+                      <g>
+                        <path d="M122.255,312.976c0,0,0,27.962,13.367,47.167" fill="#3d3d3d"/>
+                        <path d="M135.631,370.143c-3.163,0-6.273-1.496-8.216-4.288c-14.987-21.533-15.159-51.61-15.159-52.88c0-5.522,4.477-10,10-10    c5.518,0,9.993,4.47,10,9.986c0.003,0.44,0.264,25.218,11.574,41.468c3.155,4.533,2.038,10.766-2.495,13.921    C139.594,369.561,137.602,370.143,135.631,370.143z" fill="#3d3d3d"/>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M155.887,116.414c-5.523,0-10-4.478-10-10v-18.92c0-5.522,4.477-10,10-10h18.92c5.523,0,10,4.478,10,10     c0,5.522-4.477,10-10,10h-8.92v8.92C165.887,111.937,161.41,116.414,155.887,116.414z" fill="#3d3d3d"/>
+                        </g>
+                        <g>
+                          <path d="M218.049,116.414c-5.523,0-10-4.478-10-10v-8.92h-8.919c-5.523,0-10-4.478-10-10c0-5.522,4.477-10,10-10h18.919     c5.523,0,10,4.478,10,10v18.92C228.049,111.937,223.572,116.414,218.049,116.414z" fill="#3d3d3d"/>
+                        </g>
+                        <g>
+                          <path d="M218.049,158.533H199.13c-5.523,0-10-4.478-10-10c0-5.523,4.477-10,10-10h8.919v-8.92c0-5.522,4.477-10,10-10     c5.523,0,10,4.478,10,10v18.92C228.049,154.056,223.572,158.533,218.049,158.533z" fill="#3d3d3d"/>
+                        </g>
+                        <g>
+                          <path d="M174.807,158.533h-18.92c-5.523,0-10-4.478-10-10v-18.92c0-5.522,4.477-10,10-10c5.523,0,10,4.478,10,10v8.92h8.92     c5.523,0,10,4.477,10,10C184.807,154.056,180.33,158.533,174.807,158.533z" fill="#3d3d3d"/>
+                        </g>
+                      </g>
+                      <g>
+                        <circle cx="186.968" cy="118.014" r="12.981" fill="#3d3d3d"/>
+                      </g>
+                    </g>
+
+                    <span>Clique na imagem acima para iniciar a leiura do código de barras.</span>
+                    <input type="text" class="string">
+
+                </div><!-- buttonScan -->
+
+            </div><!-- formCamps -->
+
+            <div id="pconsultaPecas">
+              
+                <div class="collection">
+                    <a href="#!" class="collection-item codnpeca"></a>
+                    <a href="#!" class="collection-item codref"></a>
+                    <a href="#!" class="collection-item codqtd"></a>
+                    <a href="#!" class="collection-item codcol"></a>
+                    <a href="#!" class="collection-item codsit"></a>
+<!--                     <a href="#!" class="collection-item codmoed"></a>
+                    <a href="#!" class="collection-item codcmv"></a> -->
+                    <a href="#!" class="collection-item codprevend"></a>
+                    <a href="#!" class="collection-item codprecesp"></a>
+                    <a href="#!" class="collection-item codmed"></a>
+                </div>
+
+                <div class="gropButtos">
+                  
+                    <a class="btn waves-effect waves-light grey darken-3 btnNovaBusca"><i class="material-icons">search</i>Nova Busca</a>
+
+                </div><!-- gropButtos -->
+
+            </div><!-- pconsultaPecas -->
+
+        </div><!-- div_consultaPecas -->
+
+
+        <!-- HTML Interior -->
+
+        <div id="div_interior">
+            <div id="pInterior"></div>
+        </div><!-- div_interior -->
+
+
+        <!-- HTML Vez -->
+
+        <div id="div_vez">
+            <div id="pVez"></div>
+        </div><!-- div_vez -->
+
+
+        <!-- HTML Venda -->
+
+        <div id="div_venda">
+            <div id="pVenda"></div>
+        </div><!-- div_venda -->
+
+
+        <!-- HTML Conhecimento da Equipe -->
+
+        <div id="div_ConhecimentoEquipe">
+            <div id="pConhecimentoEquipe"></div>
+        </div><!-- div_ConhecimentoEquipe -->
+
+        <!-- HTML Relatorio -->
+
+        <div id="div_Relatorio">
+            <div id="pRelatorio"></div>
+        </div><!-- div_Relatorio -->
+
+    </div>
+  </div>
+
+
+
+  <!-- VISAO DESKTOP -->
+
+  <div class="container"></div>
+
+  <div id="box_view"></div><!-- box_view -->
+
+  <div class="shadonw">
+      <div class="preloader-wrapper small active">
+          <div class="spinner-layer spinner-green-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+  </div>
+
+  <div class="find"></div>
+
+  </form>
+  
+  </body>
+
+</html>

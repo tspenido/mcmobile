@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta name='theme-color' content='#3d300b'/>
+
+  <title>..:: Question&aacute;rio VITRINE e INTERIOR ::..</title>
+
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="lib/materialize/js/materialize.js"></script>
+  <script src="lib/materialize/js/init.js"></script>
+  <script src="js/app_action.js"></script>  
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="lib/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+
+<body>
+
+  <div class="iduser" style="display: none;"></div>
+
+  <nav class="light-blue lighten-1" role="navigation">
+
+    <div class="nav-wrapper container">
+
+      <div class="texto_titulo">Question&aacute;rio sobre <b>VITRINE</b></div>
+      <img src="images/internet.png" height="32" width="32" class="imgStatus">
+
+      <div id="nav-mobile" class="side-nav">
+
+        <a id="logo-container" href="#" class="brand-logo logotipoMc">
+          <img src="images/ico_menu.png">
+        </a>
+
+        <span class="bemvindo">Olá Thiago</span>
+
+        <ul>
+
+          <li><a id="btnVitrine"><i class="material-icons">description</i>Vitrine</a></li>
+          <li><a id="btnInterior"><i class="material-icons">description</i>Interior</a></li>
+          <li><a id="btnVez"><i class="material-icons">description</i>Sistema de Vez</a></li>
+          <li><a id="btnAprePessoal"><i class="material-icons">description</i>Apres. Pessoal</a></li>
+          <li><a id="btnVenda"><i class="material-icons">description</i>Venda</a></li>
+          <li><a id="btnConheEquipe"><i class="material-icons">description</i>Conhec. da Equipe</a></li>
+          <li><a id="btnRelatorios"><i class="material-icons">description</i>Relatórios</a></li>
+          <ul id='divRelat' class='dropdown-content'>
+            <li><a href="#!">Atual</a></li>
+            <li><a href="#!">Busca Personalizada</a></li>
+          </ul>
+          <li><a id="btnSair"><i class="material-icons">lock_outline</i>Sair</a></li>
+
+        </ul>
+
+      </div>
+
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+    </div>
+
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+
+    <div class="container">
+
+        <div class="combos">
+
+            <span style="display: table; margin: 0px auto 5px">Escolha as informações para visualizar o formulário:</span>
+
+            <select class="escolha_bimestre input-field col s12">
+              <option value="1">1º Bimestre</option>
+              <option value="2">2º Bimestre</option>
+              <option value="3">3º Bimestre</option>
+              <option value="4">4º Bimestre</option>
+              <option value="5">5º Bimestre</option>
+              <option value="6">6º Bimestre</option>
+            </select>
+
+            <select class="escolha_loja input-field col s12"></select>
+
+        </div><!-- combo_loja -->
+
+        <a class="waves-effect waves-light btn btnBuscar grey darken-3">Avançar</a>
+
+        <div id="iLoja" style="display: none;"></div>
+        <div id="lojaEscolhida" style="display: none;"></div>
+
+
+        <!-- HTML VITRINE -->
+
+        <div id="div_vitrine">
+            <div id="pVitrine"></div>
+        </div><!-- div_vitrine -->
+
+
+        <!-- HTML Interior -->
+
+        <div id="div_interior">
+            <div id="pInterior"></div>
+        </div><!-- div_interior -->
+
+
+        <!-- HTML Vez -->
+
+        <div id="div_vez">
+            <div id="pVez"></div>
+        </div><!-- div_vez -->
+
+
+        <!-- HTML Venda -->
+
+        <div id="div_venda">
+            <div id="pVenda"></div>
+        </div><!-- div_venda -->
+
+
+        <!-- HTML Conhecimento da Equipe -->
+
+        <div id="div_ConhecimentoEquipe">
+            <div id="pConhecimentoEquipe"></div>
+        </div><!-- div_ConhecimentoEquipe -->
+
+    </div>
+  </div>
+
+
+
+  <!-- VISAO DESKTOP -->
+
+  <div class="container"></div>
+
+  <div id="box_view"></div><!-- box_view -->
+
+  <div class="shadonw">
+      <div class="preloader-wrapper small active">
+          <div class="spinner-layer spinner-green-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+  </div>
+
+  <div class="find"></div>
+
+  </body>
+
+</html>

@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-appinfo": {
+            "PACKAGE_NAME": "mcj.mcmobile.montecarlo.com.br"
+        },
+        "cordova-plugin-appversion": {
+            "PACKAGE_NAME": "mcj.mcmobile.montecarlo.com.br"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "mcj.mcmobile.montecarlo.com.br"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "mcj.mcmobile.montecarlo.com.br"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "mcj.mcmobile.montecarlo.com.br"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "mcj.mcmobile.montecarlo.com.br"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "mcj.mcmobile.montecarlo.com.br"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "mcj.mcmobile.montecarlo.com.br"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "mcj.mcmobile.montecarlo.com.br"
+        }
+    }
+}

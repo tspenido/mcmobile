@@ -1,0 +1,23 @@
+html, body { height: 100%; }
+html { display: table; margin: auto; }
+body { display: table-cell; vertical-align: middle; background: #ffebbd;}
+.shadonw {z-index: 3; display: none; background: #fff; position: fixed; padding: 18px; top: 50%; text-align: center; left: 50%; border-radius: 62px; height: 70px; margin-left: -36px;}
+.find{background: #000; opacity: 0.7; position: fixed; width: 100%; height: 100%; z-index: 2; top: 0; left: 0; display: none;}
+.imgBottom{ position: absolute; bottom: -55px; left: 0; background-size: cover; width: 100%;}
+.margin { margin: 0 !important; }
+.btnlogar { position: absolute; top: 50%; left: 50%; margin-top: 107px; margin-left: -60px;}
+.toast { background: #D70000; color: #fff; position: relative; bottom: 0; left: -180px !important; text-align: center; width: 100%; height: 50px;}
+.top_logo { position: absolute; top: 50%; left: 50%; margin-left: -102px; width: 214px;  margin-top: -237px;}
+.campsForms { position: absolute; top: 50%; left: 50%; margin-top: -50px; margin-left: -113px;}
+.input-field input{ border-bottom: 1px solid #3b3b3b !important;}
+.input-field label { color: #3b3b3b !important;}
+.input-field input:focus + label { color: #3b3b3b !important;}
+.input-field input:focus { border-bottom: 1px solid #3b3b3b !important; box-shadow: 0 1px 0 0 #3b3b3b !important;}
+
+.icooff { position: absolute; top: 50%; left: 50%; margin-left: -106px; margin-top: -170px; }
+.icooff span { display: table; text-align: center; margin-top: 20px; margin-left: -2px; width: 223px; }
+.divoff{position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 20; background: #e5b137; display: none;}
+.divItens a{float: left; margin-left: 34px;}
+.divItens { position: absolute; bottom: 0; background: #f6ecd5; width: 100%; border-top: 1px solid #cacaca; height: 118px; margin-bottom: -3px; padding-top: 42px; }
+.divsa { display: table; margin-left: 126px; margin-top: -15px;}
+.divsa a span { display: table; text-align: center; width: 43px; color: #3d3d3d;}
